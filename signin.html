@@ -34,129 +34,135 @@
 
       </header>
 
-      <main class="flex justify-center px-6 py-12">
+     <main class="flex justify-center px-6 py-12">
 
-        <div
-          class="w-full max-w-lg 
-                 bg-black/80
-                 rounded-md
-                 px-10 py-12
-                 md:px-14 md:py-16"
-        >
+  <div
+    class="w-full max-w-lg
+           bg-black/80
+           rounded-md
+           px-10 py-12
+           md:px-14 md:py-16"
+  >
 
-          <h1 class="text-3xl font-bold mb-8">
-            Sign In
-          </h1>
+    <!-- Clear demo label -->
+    <div class="mb-6">
+      <span
+        class="inline-block
+               bg-red-600
+               text-white
+               text-xs
+               font-bold
+               px-3 py-1
+               rounded"
+      >
+        EDUCATIONAL DEMO
+      </span>
+    </div>
 
-          <div class="mb-4">
+    <h1 class="text-3xl font-bold mb-3">
+      Streaming UI Demo
+    </h1>
 
-            <input
-              type="email"
-              placeholder="Email or mobile number"
-              class="w-full
-                     bg-[#333]
-                     rounded
-                     px-4 py-4
-                     text-white
-                     placeholder-gray-400
-                     outline-none
-                     focus:bg-[#454545]"
-            >
+    <p class="text-gray-400 text-sm mb-8">
+      This is a non-functional sign-in demonstration.
+      No email addresses, passwords, or personal information are collected.
+    </p>
 
-          </div>
+    <!-- Demo email field -->
+    <div class="mb-4">
 
+      <input
+        type="text"
+        placeholder="Demo email (not collected)"
+        autocomplete="off"
+        class="w-full
+               bg-[#333]
+               rounded
+               px-4 py-4
+               text-white
+               placeholder-gray-400
+               outline-none
+               focus:bg-[#454545]"
+      >
 
-          <div class="mb-6">
+    </div>
 
-            <input
-              type="password"
-              placeholder="Password"
-              class="w-full
-                     bg-[#333]
-                     rounded
-                     px-4 py-4
-                     text-white
-                     placeholder-gray-400
-                     outline-none
-                     focus:bg-[#454545]"
-            >
+    <!-- Non-functional password-looking field -->
+    <div class="mb-6">
 
-          </div>
+      <input
+        type="text"
+        value="Password field disabled in demo"
+        disabled
+        class="w-full
+               bg-[#222]
+               rounded
+               px-4 py-4
+               text-gray-500
+               outline-none
+               cursor-not-allowed"
+      >
 
+    </div>
 
-          <button
-            class="w-full
-                   bg-red-600
-                   hover:bg-red-700
-                   text-white
-                   py-3
-                   rounded
-                   font-bold
-                   transition"
-          >
-            Continue
-          </button>
+    <!-- Demo button -->
+    <button
+      type="button"
+      onclick="alert('This is an educational UI demo. No login information is collected or submitted.')"
+      class="w-full
+             bg-red-600
+             hover:bg-red-700
+             text-white
+             py-3
+             rounded
+             font-bold
+             transition"
+    >
+      Enter Demo
+    </button>
 
+    <div
+      class="mt-6
+             text-sm
+             text-gray-400
+             text-center"
+    >
+      No account or password is required.
+    </div>
 
-          <div
-            class="flex
-                   items-center
-                   justify-between
-                   mt-4
-                   text-sm
-                   text-gray-400"
-          >
+    <p class="mt-10 text-gray-400">
 
-            <label class="flex items-center gap-2">
+      Exploring the demo?
 
-              <input
-                type="checkbox"
-                class="accent-red-600"
-              >
+      <a
+        href="index.html"
+        class="text-white hover:underline"
+      >
+        Return to home.
+      </a>
 
-              Remember me
+    </p>
 
-            </label>
+    <!-- Clear disclosure -->
+    <div
+      class="mt-8
+             bg-[#222]
+             rounded
+             p-4
+             text-xs
+             text-gray-400
+             leading-relaxed"
+    >
+      <strong class="text-white">
+        Educational project:
+      </strong>
 
-            <a href="#" class="hover:underline">
-              Need help?
-            </a>
-
-          </div>
-
-
-          <p class="mt-12 text-gray-400">
-
-            New to Netflix?
-
-            <a
-              href="index.html"
-              class="text-white hover:underline"
-            >
-              Sign up now.
-            </a>
-
-          </p>
-
-
-          <p class="mt-4 text-xs text-gray-500 leading-relaxed">
-
-            This page is a clone of Netflix and is not affiliated with Netflix, Inc. It is for educational purposes only.
-
-            <a href="#" class="text-blue-500 hover:underline">
-          
-            </a>
-
-          </p>
-
-        </div>
-
-      </main>
-
+      This page is a visual demonstration of a streaming-service
+      interface. It is not affiliated with Netflix or any other
+      streaming service. It does not authenticate users, collect
+      credentials, store personal information, or process payments.
     </div>
 
   </div>
 
-</body>
-
-</html>
+</main>
